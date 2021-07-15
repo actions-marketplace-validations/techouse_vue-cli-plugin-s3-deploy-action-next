@@ -16,9 +16,9 @@ fi
 
 # Start deployment
 
-yarn global add @vue/cli
-yarn add vue-cli-plugin-s3-deploy@next
-yarn install
+npm i -g @vue/cli@^5.0.0-beta.2
+npm i vue-cli-plugin-s3-deploy@^4.0.0-rc4
+npm i
 
-yarn build
-yarn deploy
+npm run build
+npm run deploy

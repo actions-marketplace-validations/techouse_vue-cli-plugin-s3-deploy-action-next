@@ -1,6 +1,6 @@
-name: "vue cli plugin s3 deploy action"
-description: "A Github action for vue-cli-plugin-s3-deploy"
-author: jackdcasey
+name: "vue cli plugin s3 deploy next action"
+description: "A Github action for vue-cli-plugin-s3-deploy-next"
+author: techouse
 runs:
   using: docker
   image: Dockerfile
